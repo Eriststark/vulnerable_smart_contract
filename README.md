@@ -67,8 +67,7 @@ vulnerableInstance.storedData().then(result => console.log("StoredData after exp
 
 ```
 
-
-iii. ExploitContract is able to reset the storedData in VulnerableContract by calling the resetStoredData() function, even though it is marked as external and intended for ExploitContract only.
+   iii.    ExploitContract is able to reset the storedData in VulnerableContract by calling the resetStoredData() function, even though it is marked as external and intended for ExploitContract only.
 
 
 ## Additional Notes
